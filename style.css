@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff8f4;
+    color: #333;
+    text-align: center;
+    padding: 30px;
+}
+
+/* Headings */
+
+h1 {
+    color: #5b3428;
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #8b4a3c;
+    font-size: 28px;
+    margin-top: 35px;
+}
+
+/* Paragraphs */
+
+p {
+    font-size: 17px;
+    line-height: 1.7;
+    color: #555;
+}
+
+/* Image */
+
+.cafe-image {
+    width: 300px;
+    height: 190px;
+    object-fit: cover;
+    border-radius: 15px;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Link */
+
+a {
+    color: #8b4a3c;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #d66b5d;
+}
+
+/* Button */
+
+button {
+    background-color: #d66b5d;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: #b95347;
+}
